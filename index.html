@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>AlgoDojo: JS Problem Solving</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f172a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="AlgoDojo">
+<meta name="description" content="Go from novice to fluent at LeetCode-style problems and JavaScript function analysis.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div id="app">
+  <nav id="tabbar" aria-label="Main">
+    <div class="brand"><span class="logo">{ }</span> AlgoDojo</div>
+    <button data-tab="home" class="tab active"><span class="ti">◆</span><span>Learn</span></button>
+    <button data-tab="review" class="tab"><span class="ti">↻</span><span>Review<b id="dueBadge" class="badge" hidden></b></span></button>
+    <button data-tab="lab" class="tab"><span class="ti">ƒ</span><span>Lab</span></button>
+    <button data-tab="ref" class="tab"><span class="ti">☰</span><span>Guide</span></button>
+    <button data-tab="stats" class="tab"><span class="ti">★</span><span>Progress</span></button>
+  </nav>
+  <main id="view" tabindex="-1"></main>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="content/units-a.js"></script>
+<script src="content/units-b.js"></script>
+<script src="content/units-c.js"></script>
+<script src="content/units-d.js"></script>
+<script src="content/reference.js"></script>
+<script src="runner.js"></script>
+<script src="analyzer.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
